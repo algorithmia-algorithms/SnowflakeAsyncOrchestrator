@@ -48,7 +48,6 @@ CREDENTIALS_PATH = "data://{}/{}/{}".format(
 OUTPUT_PATH = "data://{}/{}".format(
     ALGORITHMIA_USERNAME, OUTPUT_COLLECTION)
 
-
 # Create output collection if it doesn't already exist.
 OUTPUT_DIR = client.dir(OUTPUT_PATH)
 if not OUTPUT_DIR.exists():

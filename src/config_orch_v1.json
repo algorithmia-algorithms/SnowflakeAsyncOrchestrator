@@ -1,0 +1,13 @@
+{
+    "snowflake": {
+        "user": "SNOWFLAKE_USER_NAME",
+        "password": "SNOWFLAKE_PASSWORD"
+        "account": "SNOWFLAKE_ACCOUNT",
+        "application": "Algorithmia",
+        "warehouse": "compute_wh",
+        "database": "algo_demo",
+        "schema": "orch_v1",
+        "input_table": "test_input_table",
+        "output_table": "test_output_table"
+    }
+}

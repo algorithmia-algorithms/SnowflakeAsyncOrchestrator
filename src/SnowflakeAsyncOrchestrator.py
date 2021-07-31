@@ -53,7 +53,6 @@ OUTPUT_DIR = client.dir(OUTPUT_PATH)
 if not OUTPUT_DIR.exists():
     OUTPUT_DIR.create()
 
-
 # Set a few additional constants to specify the maximum safe number of requests
 # to return in an API response, and the maximum number of times to retry an
 # algorithm request if an exception has occured.

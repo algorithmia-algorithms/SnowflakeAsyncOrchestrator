@@ -357,7 +357,6 @@ CREDENTIALS = parse_JSON_to_dict(CREDENTIALS_PATH)
 SNOWFLAKE_CREDS = CREDENTIALS["snowflake"]
 CONN = get_snowflake_conn(SNOWFLAKE_CREDS)
 
-
 # Define some test data for the demonstration.
 input_1 = {
     "payload_id": 101,
